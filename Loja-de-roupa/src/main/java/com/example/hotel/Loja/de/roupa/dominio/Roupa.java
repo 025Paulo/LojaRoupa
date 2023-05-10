@@ -1,7 +1,13 @@
 package com.example.hotel.Loja.de.roupa.dominio;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "roupa")
 public class Roupa {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
     private String tipo;
@@ -75,14 +81,5 @@ public class Roupa {
         this.tamanho = tamanho;
     }
 
-    public Integer getPreço() {
-        return preço;
-    }
-
-    public void setPreço(Integer preço) {
-        this.preço = preço;
-    }
-
-    private Integer preço;
 
 }
