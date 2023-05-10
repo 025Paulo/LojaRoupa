@@ -1,6 +1,6 @@
-package com.example.hotel.Loja.de.roupa.Controller;
+package com.example.hotel.Loja.de.roupa.controller;
 
-import com.example.hotel.Loja.de.roupa.Dominio.ErrorJSON;
+import com.example.hotel.Loja.de.roupa.dominio.ErrorJSON;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;

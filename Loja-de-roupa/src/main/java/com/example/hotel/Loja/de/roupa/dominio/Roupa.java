@@ -1,4 +1,4 @@
-package com.example.hotel.Loja.de.roupa.Dominio;
+package com.example.hotel.Loja.de.roupa.dominio;
 
 public class Roupa {
 
