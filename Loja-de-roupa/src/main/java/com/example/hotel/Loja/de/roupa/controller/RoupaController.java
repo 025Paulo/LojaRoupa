@@ -1,6 +1,7 @@
 package com.example.hotel.Loja.de.roupa.controller;
 
 import com.example.hotel.Loja.de.roupa.dominio.Roupa;
+import com.example.hotel.Loja.de.roupa.repository.RoupaRepository;
 
 public class RoupaController {
 
